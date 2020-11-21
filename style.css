@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    font-family: 'Inconsolata', monospace;
+    color: #292929;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4rem;
+}
+
+nav a {
+    color: #292929;
+    font-size: 1.3em;
+}
+
+nav > a {
+    padding-left: .2em;
+    padding-right: .2em;
+    transition: .3s;
+}
+
+nav > a:hover, .download > a:hover {
+    background-color: #c5c5c5;
+}
+
+nav > span {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-right: 5rem;
+    margin-left: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #292929;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: .5rem;
+}
+
+main > div {
+    background-color: white;
+    margin: .5rem;
+    padding: 1rem;
+    width: 32rem;
+}
+
+.title, .description {
+    margin-bottom: 1em;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.description {
+    color: #444444;
+}
+
+.description > span {
+    font-weight: 700;
+}
+
+.download > a {
+    transition: .3s;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+body > div {
+    margin: auto;
+    display: flex;
+    margin-top: 22rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 700;
+    transition: .3s;
+}
+
+body > div:hover {
+    background-color: #c5c5c5;
+}
+
+body > div > img {
+    height: 8rem;
+    fill: #ffffff;
+}
